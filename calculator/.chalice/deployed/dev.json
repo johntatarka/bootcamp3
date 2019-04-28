@@ -3,19 +3,19 @@
     {
       "name": "default-role",
       "resource_type": "iam_role",
-      "role_arn": "arn:aws:iam::105658513520:role/helloworld-dev",
-      "role_name": "helloworld-dev"
+      "role_arn": "arn:aws:iam::105658513520:role/calculator-dev",
+      "role_name": "calculator-dev"
     },
     {
       "name": "api_handler",
       "resource_type": "lambda_function",
-      "lambda_arn": "arn:aws:lambda:us-east-2:105658513520:function:helloworld-dev"
+      "lambda_arn": "arn:aws:lambda:us-east-2:105658513520:function:calculator-dev"
     },
     {
       "name": "rest_api",
       "resource_type": "rest_api",
-      "rest_api_id": "ytyzcyuz9a",
-      "rest_api_url": "https://ytyzcyuz9a.execute-api.us-east-2.amazonaws.com/api/"
+      "rest_api_id": "zx4v3z7wy3",
+      "rest_api_url": "https://zx4v3z7wy3.execute-api.us-east-2.amazonaws.com/api/"
     }
   ],
   "schema_version": "2.0",
